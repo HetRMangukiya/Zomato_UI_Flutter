@@ -1,16 +1,65 @@
-# appsui
+# Zomato App UI Design in Flutter
 
-A new Flutter project.
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Zomato_logo.png" alt="Zomato Logo" width="200" height="200">
+
+This repository contains the UI design of the Zomato app, implemented using Flutter. The project leverages the GetX package for state management and uses stateless widgets to ensure a smooth and efficient user experience.
+
+## Features
+
+- **Clean and Modern UI**: Follows the latest design trends to provide a visually appealing interface.
+- **Responsive Design**: Adapts to different screen sizes and orientations.
+- **Efficient State Management**: Uses GetX for easy and efficient state management.
+- **Modular Code Structure**: Organized and maintainable codebase.
+
+## Screenshots
+
+![Home Screen](screenshots/home_screen.png)
+![Restaurant Screen](screenshots/restaurant_screen.png)
+![Menu Screen](screenshots/menu_screen.png)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these steps to get a copy of the project up and running on your local machine for development and testing purposes.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Git: [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  ## Project Structure
+
+  ```plaintext
+  lib/
+  ├── controllers/
+  │   └── home_controller.dart
+  ├── screens/
+  │   ├── home_screen.dart
+  │   ├── restaurant_screen.dart
+  │   └── menu_screen.dart
+  ├── widgets/
+  │   ├── custom_app_bar.dart
+  │   ├── restaurant_card.dart
+  │   └── menu_item.dart
+  ├── main.dart
+  └── routes.dart
+
+### Installation
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/yourusername/zomato-app-ui-flutter.git
+
+2. **Navigate to the project directory**
+   ```sh
+   cd zomato-app-ui-flutter
+
+3. **Install dependencies**
+   ```sh
+   flutter pub get
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out!
+
+- **Email**: hetp5172@gmail.com
+- **GitHub**: [HR Mangukiya](https://github.com/HetRMangukiya)
