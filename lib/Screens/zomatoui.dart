@@ -67,7 +67,7 @@ class _ZomatoUIState extends State<ZomatoUI> {
                   CircleAvatar(
                     radius: 20.sp,
                     backgroundImage:
-                        const AssetImage("assets/images/clutchcoderlogo.png"),
+                        const AssetImage("assets/images/applogo.png"),
                   )
                 ],
               ),
